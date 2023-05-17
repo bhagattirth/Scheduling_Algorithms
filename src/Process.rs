@@ -1,5 +1,5 @@
 use std::cmp::Ordering;
-#[derive( Eq, Clone)]
+#[derive( Eq, Clone, Copy)]
 pub struct Process {
    pub arrival: i32,
    pub first_run: i32,
