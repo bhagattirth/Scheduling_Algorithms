@@ -141,11 +141,11 @@ fn stcf(tasks:BinaryHeap<Process::Process>) -> Vec<Process::Process>{
 //   for text in completed {
 //     println!("arrival: {}, first_run: {}, duration: {}, completion :{} ", text.arrival, text.first_run, text.duration, text.completion);
 // }
-   completed
+  completed
 }
 
 
-fn rr(tasks:BinaryHeap<Process::Process>) {
+fn rr(tasks:BinaryHeap<Process::Process>) -> Vec<Process::Process> {
     let mut work_load: BinaryHeap<Process::Process> = tasks;
     let mut work_list: Vec<pair::Pair> = Vec::new();
     let mut completed: Vec<Process::Process> = Vec::new();
@@ -190,10 +190,10 @@ fn rr(tasks:BinaryHeap<Process::Process>) {
         }
       }
     }
-      for text in completed {
-        println!("arrival: {}, first_run: {}, duration: {}, completion :{} ", text.arrival, text.first_run, text.duration, text.completion);
-    }
-    // return completed;
+    //   for text in completed {
+    //     println!("arrival: {}, first_run: {}, duration: {}, completion :{} ", text.arrival, text.first_run, text.duration, text.completion);
+    // }
+    return completed;
   }
 
 
