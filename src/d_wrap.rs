@@ -2,6 +2,7 @@ use crate::Process::Process;
 use std::cmp::Ordering;
 #[derive(Eq, Clone)]
 
+// Wrapper for Process to allow us to sort by job's duration
 pub struct Dur_Wrap {
     pub process: Process,   
 }

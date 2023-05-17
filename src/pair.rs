@@ -3,6 +3,7 @@ use std::cmp::Ordering;
 
 #[derive(Eq, Clone)]
 
+// This is essentially a pair class where remaining is the remaining time until job completion and processs is the job
 pub struct Pair {
     pub remaining: i32,
     pub process: Process,   
@@ -14,6 +15,7 @@ impl Pair {
     }
 }
 
+// The code is below defines the ordering in pair class. We order by the shortest remaining time
 impl Ord for Pair {
     fn cmp(&self, other: &Self) -> Ordering {
         other.remaining.cmp(&self.remaining)
