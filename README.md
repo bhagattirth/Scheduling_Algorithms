@@ -3,6 +3,8 @@
 ---
 **The goal of this project was to convert the Homework 3's C++ homework about scheduling algorithms into a Rust Project.**<br>
 
+NOTE: To run this program, make sure that the project you have Rust installed in your device.
+
 ---
 ## Implementation Details:
 
