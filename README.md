@@ -6,6 +6,7 @@
 NOTE: To run this program, make sure that the project you have Rust installed in your device.
 
 Video Link: https://youtu.be/1s7dqnO4RUc
+If the video doesn't work, use the google drive to view the video or download it: https://drive.google.com/file/d/1yxZZMH9e5AdushQLrgln1_ts3qvKC5dR/view?usp=sharing
 
 ---
 ## Implementation Details:
