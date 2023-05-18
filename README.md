@@ -5,6 +5,8 @@
 
 NOTE: To run this program, make sure that the project you have Rust installed in your device.
 
+Video Link: https://youtu.be/1s7dqnO4RUc
+
 ---
 ## Implementation Details:
 
